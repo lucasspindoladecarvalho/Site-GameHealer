@@ -322,12 +322,12 @@ main .container-para-quem .btn-contato {
 }
 
 .blog h1 {
-    padding: 50px;
+    margin: 30px;
+    padding: 20px;
     font-size: 3rem;
     text-align: center;
     font-size: 3rem;
     text-shadow: -1px 1px 1px #860A0B;
-
 }
 
 .artigos-blog {
