@@ -78,7 +78,7 @@ main .container-main div h3 {
     color: white;
     text-shadow: -1px 1px 1px #860A0B;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 main .container-main div h1 {
@@ -250,21 +250,14 @@ main .container-para-quem .btn-contato {
     padding: 50px 20px;
 }
 
-.container-clientes p {
-    text-align: center;
-    background-color: transparent;
-    color: white;
-    text-shadow: -1px 1px 1px #860A0B;
-    font-size: 1.5rem;
-}
-
 .container-clientes h2 {
     background-color: transparent;
     color: white;
     text-shadow: -1px 1px 1px #860A0B;
     text-align: center;
     font-size: 1.5rem;
-
+    padding: 0 30px 30px 30px;
+    font-size: 2.5rem;
 }
 
 .container-clientes div {
@@ -324,7 +317,7 @@ main .container-para-quem .btn-contato {
     border-radius: 10px;
     box-shadow: -1px 1px 1px #860A0B;
     text-shadow: -1px 1px 1px #860A0B;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
