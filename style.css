@@ -321,7 +321,12 @@ main .container-para-quem .btn-contato {
     margin-bottom: 30px;
 }
 
-.blog h1 {
+.container-blog .artigos-blog img{
+    border-radius: 10px 10px 0;
+
+}
+
+.container-blog h1 {
     margin: 30px;
     padding: 20px;
     font-size: 3rem;
@@ -330,7 +335,7 @@ main .container-para-quem .btn-contato {
     text-shadow: -1px 1px 1px #860A0B;
 }
 
-.artigos-blog {
+.container-blog .artigos-blog {
     display: flex;
     background-color: #860A0B;
     padding: 50px;
@@ -339,10 +344,52 @@ main .container-para-quem .btn-contato {
 }
 
 
-.artigos-blog div {
+.container-blog .artigos-blog div {
     display: block;
     width: 300px;
     margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container-blog .artigos-blog .tag-blog {
+    background-color: #48B02C;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 280px;
+    left: 50px;
+}
+
+.container-blog .artigos-blog h4 {
+    margin: 0 10px 10px 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 0 10px 10px 10px;
+    text-shadow: -1px 1px 1px #860A0B;
+    background-color: transparent;
+}
+
+.container-blog .artigos-blog .descricao-artigo{
+    font-size: 1rem;
+    text-shadow: -1px 1px 10px #860A0B;
+    padding: 0 20px 20px 20px ;
+    text-align: justify;
+    background-color: transparent;
+}
+
+.container-blog .artigos-blog .btn-blog{
+    color: black;
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.container-blog .artigos-blog .blog-date{
+    border-radius: 10px;
+    background-color: transparent;    
+    padding: 20px;
 }
 
 footer {
