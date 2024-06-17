@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Gobold bold';
+    src: url(src/fonts/gobold/Gobold\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gobold thin';
+    src: url(src/fonts/gobold/Gobold\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'Gobold light';
+    src: url(src/fonts/gobold/Gobold\ Light.otf);
+}
+
 * {
     max-width: 1200px;
     scroll-behavior: smooth;
@@ -8,6 +23,7 @@
 
 body {
     color: #fff;
+    font-family: 'Gobold thin';
 }
 
 a:visited {
@@ -37,7 +53,7 @@ header nav ul {
 header nav ul li a {
     background-color: #860A0B;
     color: #ffffff;
-    padding: 0.3rem;
+    padding: 0.8rem;
     border-radius: 45px;
     display: flex;
     text-align: center;
@@ -56,7 +72,7 @@ header .redes-sociais {
 header .redes-sociais li a {
     color: #fff;
     margin: 0.5rem;
-    padding: 0.25rem;
+    padding: 0.3rem;
     border-radius: 50%;
     background-color: #860A0B;
 }
@@ -456,12 +472,12 @@ main .container-para-quem .btn-contato {
     background-color: #860A0B;
     margin: 50px auto;
     border-radius: 10px;
-    height: 300px;
+    height: 330px;
 }
 
 .container-contato div {
     background-color: transparent;
-
+    font-size: 1rem;
 }
 
 .container-contato h1 {
@@ -481,6 +497,7 @@ main .container-para-quem .btn-contato {
     background-color: transparent;
     float: left;
     max-width: 250px;
+    margin: 0 0 0 50px;
 }
 
 .container-contato .div-form {
@@ -505,6 +522,8 @@ main .container-para-quem .btn-contato {
 
 .container-contato form .lbl-mensagem {
     background-color: transparent;
+    position: relative;
+    bottom: 2px;
 }
 
 .container-contato form div {
@@ -532,10 +551,11 @@ main .container-para-quem .btn-contato {
 }
 
 .container-contato button {
-    background-color: #ff452d;
+    background-color: #FF462D;
     border-radius: 5px;
     padding:5px;
     width: 80px;
+    color: white;
 }
 
 footer {
@@ -561,7 +581,7 @@ footer nav ul {
 footer nav ul li a {
     background-color: #860A0B;
     color: #ffffff;
-    padding: 0.3rem;
+    padding: 0.8rem;
     border-radius: 45px;
     display: flex;
     text-align: center;
@@ -580,7 +600,7 @@ footer .redes-sociais {
 footer .redes-sociais li a {
     color: #fff;
     margin: 0.5rem;
-    padding: 0.25rem;
+    padding: 0.3rem;
     border-radius: 50%;
     background-color: #860A0B;
 }
