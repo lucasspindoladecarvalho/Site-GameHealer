@@ -456,11 +456,12 @@ main .container-para-quem .btn-contato {
     background-color: #860A0B;
     margin: 50px auto;
     border-radius: 10px;
+    height: 300px;
 }
 
-.container-contato div{
+.container-contato div {
     background-color: transparent;
-    
+
 }
 
 .container-contato h1 {
@@ -471,37 +472,70 @@ main .container-para-quem .btn-contato {
 }
 
 ::placeholder {
-    color: white;
-    text-shadow: -1px 1px 10px #000000;
+    color: #bbbbbb;
     padding: 5px 0 0 5px;
+    background-color: transparent;
+}
+
+.container-contato img{
+    background-color: transparent;
+    float: left;
+    max-width: 250px;
+}
+
+.container-contato .div-form {
+    max-width: 1000px;
+    text-align: right;
+    padding: 30px 10px;
 }
 
 .container-contato form {
     background-color: transparent;
 }
 
+.container-contato form .lbl-nome {
+    background-color: transparent;
+
+}
+
+.container-contato form .lbl-tel {
+    background-color: transparent;
+
+}
+
+.container-contato form .lbl-mensagem {
+    background-color: transparent;
+}
+
+.container-contato form div {
+    background-color: transparent;
+    margin: 5px auto;
+}
+
 .container-contato form #nome {
     background-color: #ff452d85;
+    width: 250px;
     border-radius: 5px;
-    height: 30px;
-    width: 300px;
-    margin: 10px;
 }
 
 .container-contato form #telefone-ou-email {
     background-color: #ff452d85;
+    width: 250px;
     border-radius: 5px;
-    height: 30px;
-    width: 300px;
-    margin: 10px;
 }
 
 .container-contato form #mensagem {
     background-color: #ff452d85;
-    border-radius: 5px;
+    width: 400px;
     height: 150px;
-    width: 625px;
-    margin: 10px;
+    border-radius: 5px;
+}
+
+.container-contato button {
+    background-color: #ff452d;
+    border-radius: 5px;
+    padding:5px;
+    width: 80px;
 }
 
 footer {
