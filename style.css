@@ -321,7 +321,7 @@ main .container-para-quem .btn-contato {
     margin-bottom: 30px;
 }
 
-.container-blog .artigos-blog img{
+.container-blog .artigos-blog img {
     border-radius: 10px 10px 0;
 
 }
@@ -371,25 +371,137 @@ main .container-para-quem .btn-contato {
     background-color: transparent;
 }
 
-.container-blog .artigos-blog .descricao-artigo{
+.container-blog .artigos-blog .descricao-artigo {
     font-size: 1rem;
     text-shadow: -1px 1px 10px #860A0B;
-    padding: 0 20px 20px 20px ;
+    padding: 0 20px 20px 20px;
     text-align: justify;
     background-color: transparent;
 }
 
-.container-blog .artigos-blog .btn-blog{
+.container-blog .artigos-blog .btn-blog {
     color: black;
     text-decoration: underline;
     background-color: transparent;
     padding: 20px;
 }
 
-.container-blog .artigos-blog .blog-date{
+.container-blog .artigos-blog .blog-date {
     border-radius: 10px;
-    background-color: transparent;    
+    background-color: transparent;
     padding: 20px;
+}
+
+.container-servicos {}
+
+.container-servicos h2 {
+    margin: 30px;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: -1px 1px 1px #860A0B;
+}
+
+.container-servicos .grupo-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px 0;
+    background-color: #000000;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.container-servicos .servico-unidade {
+    border-radius: 10px;
+    background-color: #860A0B;
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+}
+
+.container-servicos img {
+    border-radius: 10px 10px 0 0;
+    max-width: 250px;
+}
+
+.container-servicos .grupo-servicos .servico-unidade div {
+    background-color: transparent;
+}
+
+.container-servicos .grupo-servicos .servico-unidade div p {
+    text-shadow: -1px 1px 1px #000000;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem 0.5rem 0 0.5rem;
+    color: white;
+    background-color: transparent;
+}
+
+.container-servicos .btn-servicos {
+    background-color: #FF462D;
+    padding: 20px 40px;
+    display: block;
+    max-width: fit-content;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -1px 1px 1px #860A0B;
+    text-shadow: -1px 1px 1px #860A0B;
+    margin: 20px auto 0 auto;
+}
+
+.container-contato {
+    background-color: #860A0B;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.container-contato div{
+    background-color: transparent;
+    
+}
+
+.container-contato h1 {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: -1px 1px 10px #000;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+    text-shadow: -1px 1px 10px #000000;
+    padding: 5px 0 0 5px;
+}
+
+.container-contato form {
+    background-color: transparent;
+}
+
+.container-contato form #nome {
+    background-color: #ff452d85;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+}
+
+.container-contato form #telefone-ou-email {
+    background-color: #ff452d85;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+}
+
+.container-contato form #mensagem {
+    background-color: #ff452d85;
+    border-radius: 5px;
+    height: 150px;
+    width: 625px;
+    margin: 10px;
 }
 
 footer {
