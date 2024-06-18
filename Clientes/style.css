@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Gobold bold';
+    src: url(src/fonts/gobold/Gobold\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gobold thin';
+    src: url(src/fonts/gobold/Gobold\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'Gobold light';
+    src: url(src/fonts/gobold/Gobold\ Light.otf);
+}
+
+* {
+    max-width: 1200px;
+    scroll-behavior: smooth;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body {
+    color: #fff;
+    font-family: 'Gobold thin';
+}
+
+a:visited {
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    width: 6rem;
+    max-width: 25vw;
+    background-color: #ffffff;
+    border-radius: 35%;
+    justify-self: left;
+}
+
+header nav ul {
+    display: flex;
+    /* gap: 2rem; */
+    flex-wrap: wrap;
+}
+
+header nav ul li a {
+    background-color: #860A0B;
+    color: #ffffff;
+    padding: 0.8rem;
+    border-radius: 45px;
+    display: flex;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+
+}
+
+header .redes-sociais {
+    columns: 4;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+
+}
+
+header .redes-sociais li a {
+    color: #fff;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: #860A0B;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .logo {
+    width: 6rem;
+    max-width: 25vw;
+    /* background-color: #ffffff;
+    border-radius: 35%; */
+    justify-self: left;
+}
+
+footer nav ul {
+    display: flex;
+    /* gap: 2rem; */
+    flex-wrap: wrap;
+}
+
+footer nav ul li a {
+    background-color: #860A0B;
+    color: #ffffff;
+    padding: 0.8rem;
+    border-radius: 45px;
+    display: flex;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+
+}
+
+footer .redes-sociais {
+    /* columns: 4; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+
+}
+
+footer .redes-sociais li a {
+    color: #fff;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: #860A0B;
+}
