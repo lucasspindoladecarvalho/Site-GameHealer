@@ -58,7 +58,7 @@ header nav ul li a {
     display: flex;
     text-align: center;
     margin: 0px 10px 0px 10px;
-
+    font-family: 'Gobold thin';
 }
 
 header .redes-sociais {
