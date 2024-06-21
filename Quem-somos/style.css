@@ -23,7 +23,6 @@
 
 body {
     color: #fff;
-    font-family: 'Gobold thin';
 }
 
 a:visited {
@@ -77,82 +76,70 @@ header .redes-sociais li a {
     background-color: #860A0B;
 }
 
-main .container-main {
+main h1{
+    text-align: center;
+    font-family: 'Gobold bold';
+    font-size: 4rem;
+    padding: 30px;
+}
+
+main .container-topo {
     display: flex;
-    flex-wrap: wrap;
     background-color: black;
     border-radius: 10px;
     margin: 15px;
 }
 
-main .container-main div {
+main .container-topo div h2 {
     background-color: black;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
 }
 
-main .container-main div h3 {
-    background-color: transparent;
+main .container-topo div h4 {
+    background-color: black;
     color: white;
     text-shadow: -1px 1px 1px #860A0B;
     text-align: center;
     font-size: 1.8rem;
 }
 
-main .container-main div h1 {
-    background-color: transparent;
+main .container-topo div p {
+    background-color: black;
     color: white;
     text-shadow: -1px 1px 1px #860A0B;
-    text-align: center;
+    text-align: justify;
     font-size: 2rem;
-    padding: 10px 0 30px;
+    padding: 10px 30px 30px;
 }
 
-main .container-main .btn-servicos {
-    background-color: #FF462D;
-    padding: 20px;
-    display: block;
-    max-width: 400px;
-    font-size: 1.8rem;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: -1px 1px 1px #860A0B;
-    text-shadow: -1px 1px 1px #860A0B;
-}
-
-
-main .container-main img {
+main .container-topo img {
     width: 500px;
     border-radius: 20px;
     margin: 20px;
 }
 
-.container-quem-somos {
+.container-missao {
     display: flex;
-    flex-wrap: wrap;
     margin: 15px;
 }
 
-.container-quem-somos img {
+.container-missao img {
     padding: 0;
     max-width: 500px;
     border-radius: 20px;
     margin: 15px;
 }
 
-.container-quem-somos div h1 {
+.container-missao div h2 {
     text-align: center;
     font-size: 3rem;
     padding: 50px 0 0 0;
     text-shadow: -1px 1px 1px #860A0B;
 }
 
-.container-quem-somos div h3 {
-    text-align: center;
-    font-size: 1.8rem;
-    padding: 20px 0 0 0;
-    text-shadow: -1px 1px 1px #860A0B;
-}
-
-.container-quem-somos div p {
+.container-missao div p {
     font-size: 1.5rem;
     max-width: 600px;
     text-shadow: -1px 1px 10px #860A0B;
@@ -160,397 +147,95 @@ main .container-main img {
     text-align: justify;
 }
 
-main .container-discord {
+main .container-visao {
     display: flex;
     margin: 15px;
-}
-
-
-main .container-discord div h2 {
-    text-align: center;
-    font-size: 3rem;
-    padding: 50px 0 0 0;
-    text-shadow: -1px 1px 1px #860A0B;
-
-}
-
-main .container-discord div p {
-    font-size: 1.5rem;
-    max-width: 600px;
-    text-shadow: -1px 1px 10px #860A0B;
-    padding: 20px 0 20px 0;
-    text-align: justify;
-}
-
-main .container-discord div a {
-    background-color: #FF462D;
-    padding: 20px;
-    display: block;
-    max-width: 400px;
-    font-size: 1.5rem;
-    text-align: center;
+    background-color: black;
     border-radius: 10px;
-    box-shadow: -1px 1px 1px #860A0B;
-    text-shadow: -1px 1px 1px #860A0B;
 }
 
-main .container-discord img {
+.container-visao img {
     padding: 0;
     max-width: 500px;
     border-radius: 20px;
     margin: 15px;
 }
 
-main .container-para-quem {
+.container-visao div h2 {
     background-color: black;
-    border-radius: 10px;
-    margin: 50px auto;
-    display: block;
-    min-height: 750px;
-}
-
-main .container-para-quem h2 {
     text-align: center;
     font-size: 3rem;
     padding: 50px 0 0 0;
     text-shadow: -1px 1px 1px #860A0B;
-    background-color: transparent;
     color: white;
 }
 
-main .container-para-quem ul {
-    background-color: transparent;
-}
-
-main .container-para-quem ul li {
-    border: solid 1px #48B02C;
-    margin: 10px auto;
-    color: white;
-    background-color: transparent;
-    padding: 10px;
-    /* text-align: center; */
-    /* opção de colocar o conteúdo no centro da lista verde */
-    text-align: left;
+.container-visao div p {
+    font-size: 1.5rem;
     max-width: 600px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    text-shadow: -1px 1px 1px #860A0B;
-}
-
-main .container-para-quem img {
-    max-width: 2rem;
-    background-color: transparent;
-    margin: 0 5px;
-}
-
-main .container-para-quem .btn-contato {
-    background-color: #FF462D;
-    padding: 20px;
-    display: block;
-    max-width: 400px;
-    font-size: 1.2rem;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: -1px 1px 1px #860A0B;
-    text-shadow: -1px 1px 1px #860A0B;
-    margin: 30px auto;
-}
-
-.container-clientes {
-    display: block;
+    text-shadow: -1px 1px 10px #860A0B;
+    padding: 20px 0 0 0;
+    text-align: justify;
     background-color: black;
-    border-radius: 10px;
-    padding: 50px 20px;
-}
-
-.container-clientes h2 {
-    background-color: transparent;
     color: white;
-    text-shadow: -1px 1px 1px #860A0B;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0 30px 30px 30px;
-    font-size: 2.5rem;
 }
 
-.container-clientes div {
-    background-color: transparent;
-}
 
-.container-clientes div div {
-    background-color: transparent;
-}
-
-.container-clientes div div a {
-    background-color: transparent;
-}
-
-.container-clientes div div a img {
-    background-color: transparent;
-    border-radius: 20px;
-
-}
-
-.container-clientes div div a:hover {
-    transition: 1s;
-
-}
-
-.container-clientes div div a:not(:hover) {
-    opacity: 0.7;
-    transition: 1s ease-in-out;
-
-}
-
-.container-clientes .row-img-clientes {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 0px;
-    background-color: transparent;
-}
-
-.container-clientes .collum-img-clientes {
-    flex: 25%;
-    padding: 0px 0px;
-}
-
-.container-clientes .collum-img-clientes img {
-    vertical-align: middle;
-    width: 100%;
-    padding: 4px 4px;
-}
-
-.container-clientes .btn-clientes {
-    background-color: #FF462D;
-    padding: 20px 40px;
-    display: block;
-    max-width: fit-content;
-    font-size: 1.2rem;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: -1px 1px 1px #860A0B;
-    text-shadow: -1px 1px 1px #860A0B;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.container-blog .artigos-blog img {
-    border-radius: 10px 10px 0;
-
-}
-
-.container-blog h1 {
-    margin: 30px;
-    padding: 20px;
-    font-size: 3rem;
-    text-align: center;
-    font-size: 3rem;
-    text-shadow: -1px 1px 1px #860A0B;
-}
-
-.container-blog .artigos-blog {
-    display: flex;
+.container-valores{
     background-color: #860A0B;
     padding: 50px;
     border-radius: 10px;
     justify-content: space-evenly;
 }
 
-
-.container-blog .artigos-blog div {
-    display: block;
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-.container-blog .artigos-blog .tag-blog {
-    background-color: #48B02C;
-    width: 150px;
-    padding: 10px;
-    border-radius: 30px;
-    position: relative;
-    bottom: 280px;
-    left: 50px;
-}
-
-.container-blog .artigos-blog h4 {
-    margin: 0 10px 10px 10px;
-    text-align: justify;
-    font-size: 1.2rem;
-    padding: 0 10px 10px 10px;
-    text-shadow: -1px 1px 1px #860A0B;
-    background-color: transparent;
-}
-
-.container-blog .artigos-blog .descricao-artigo {
-    font-size: 1rem;
-    text-shadow: -1px 1px 10px #860A0B;
-    padding: 0 20px 20px 20px;
-    text-align: justify;
-    background-color: transparent;
-}
-
-.container-blog .artigos-blog .btn-blog {
-    color: black;
-    text-decoration: underline;
-    background-color: transparent;
-    padding: 20px;
-}
-
-.container-blog .artigos-blog .blog-date {
-    border-radius: 10px;
-    background-color: transparent;
-    padding: 20px;
-}
-
-.container-servicos h2 {
-    margin: 30px;
-    padding: 20px;
-    font-size: 3rem;
+.container-valores h2{
+    background-color: #860A0B;
+    color: white;
     text-align: center;
-    font-size: 3rem;
-    text-shadow: -1px 1px 1px #860A0B;
 }
 
-.container-servicos .grupo-servicos {
+.container-valores .img-valor {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    padding: 50px 0;
-    background-color: #000000;
+    background-color: transparent;
+    padding: 10px;
     justify-content: space-evenly;
-    border-radius: 10px;
 }
 
-.container-servicos .servico-unidade {
-    border-radius: 10px;
-    background-color: #860A0B;
-    margin: 20px;
-    width: 250px;
-    height: 350px;
+.container-valores .img-valor li{
+    border-radius: 20px;
 }
 
-.container-servicos img {
-    border-radius: 10px 10px 0 0;
-    max-width: 250px;
-}
-
-.container-servicos .grupo-servicos .servico-unidade div {
-    background-color: transparent;
-}
-
-.container-servicos .grupo-servicos .servico-unidade div p {
-    text-shadow: -1px 1px 1px #000000;
-    font-size: 1.4rem;
+.container-valores .img-valor li p{
+    border-radius: 0 0 10px 10px;
     text-align: center;
-    padding: 1rem 0.5rem 0 0.5rem;
-    color: white;
-    background-color: transparent;
+    font-family: 'Gobold light';
+    padding-bottom: 10px ;
 }
 
-.container-servicos .btn-servicos {
-    background-color: #FF462D;
+.container-valores img {
+    padding: 0;
+    max-width: 150px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.container-valores .list-valor{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    justify-content: space-evenly;
+}
+
+.container-valores .list-valor li{
     padding: 20px 40px;
-    display: block;
-    max-width: fit-content;
-    font-size: 1.2rem;
+    justify-content: center;
+    margin: 20px;
+    background-color: #48B02C;
+    border-radius: 20px;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: -1px 1px 1px #860A0B;
-    text-shadow: -1px 1px 1px #860A0B;
-    margin: 20px auto 0 auto;
-}
-
-.container-contato {
-    background-color: #860A0B;
-    margin: 50px auto;
-    border-radius: 10px;
-    height: 330px;
-}
-
-.container-contato div {
-    background-color: transparent;
-    font-size: 1rem;
-}
-
-.container-contato h1 {
-    background-color: transparent;
-    color: #fff;
-    text-shadow: -1px 1px 10px #000;
-    text-align: center;
-}
-
-::placeholder {
-    color: #bbbbbb;
-    padding: 5px 0 0 5px;
-    background-color: transparent;
-}
-
-.container-contato img{
-    background-color: transparent;
-    float: left;
-    max-width: 250px;
-    margin: 0 0 0 50px;
-}
-
-.container-contato .div-form {
-    max-width: 1000px;
-    text-align: right;
-    padding: 30px 10px;
-}
-
-.container-contato form {
-    background-color: transparent;
-}
-
-.container-contato form .lbl-nome {
-    background-color: transparent;
-
-}
-
-.container-contato form .lbl-tel {
-    background-color: transparent;
-
-}
-
-.container-contato form .lbl-mensagem {
-    background-color: transparent;
-    position: relative;
-    bottom: 2px;
-}
-
-.container-contato form div {
-    background-color: transparent;
-    margin: 5px auto;
-}
-
-.container-contato form #nome {
-    background-color: #ff452d85;
-    width: 250px;
-    border-radius: 5px;
-}
-
-.container-contato form #telefone-ou-email {
-    background-color: #ff452d85;
-    width: 250px;
-    border-radius: 5px;
-}
-
-.container-contato form #mensagem {
-    background-color: #ff452d85;
-    width: 400px;
-    height: 150px;
-    border-radius: 5px;
-}
-
-.container-contato button {
-    background-color: #FF462D;
-    border-radius: 5px;
-    padding:5px;
-    width: 80px;
-    color: white;
+    font-size: 1.5rem;
 }
 
 footer {
