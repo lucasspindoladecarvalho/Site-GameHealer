@@ -81,6 +81,7 @@ header .redes-sociais li a {
     background-color: black;
     border-radius: 10px;
     margin: 30px 0;
+    padding-bottom: 30px;
 }
 
 .container-cliente-1 h2 {
@@ -96,8 +97,8 @@ header .redes-sociais li a {
     overflow: hidden;
     height: 100%;
     margin: 10px 20px;
-    padding:0
-    /* Or set a fixed height */
+    padding: 0
+        /* Or set a fixed height */
 }
 
 /* SLIDER */
@@ -110,7 +111,7 @@ header .redes-sociais li a {
 }
 
 .CSSgal .slider div {
-    background:black;
+    background: black;
 }
 
 /* SLIDES */
@@ -339,17 +340,25 @@ header .redes-sociais li a {
 }
 
 .container-cliente-1 .btn-cliente-1 {
-    background-color: transparent;
-}
-
-
-.container-cliente-2{
-    background-color: black;
-    margin: 30px 0;
+    padding: 20px 40px;
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
     border-radius: 10px;
+    margin: 30px auto 0;
+    width: fit-content;
+    background-color: #FF462D;
 }
 
-.container-cliente-2 h2{
+
+.container-cliente-2 {
+    background-color: black;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.container-cliente-2 h2 {
     background-color: transparent;
     color: white;
     text-align: center;
@@ -363,8 +372,8 @@ header .redes-sociais li a {
     overflow: hidden;
     height: 100%;
     margin: 10px 20px;
-    padding:0
-    /* Or set a fixed height */
+    padding: 0
+        /* Or set a fixed height */
 }
 
 /* SLIDER */
@@ -377,7 +386,7 @@ header .redes-sociais li a {
 }
 
 .CSSgal .slider div {
-    background:black;
+    background: black;
 }
 
 /* SLIDES */
@@ -515,7 +524,7 @@ header .redes-sociais li a {
 }
 
 #c2-s2:target~.prevNext>*:nth-child(2) {
-  visibility: visible;
+    visibility: visible;
 }
 
 #c2-s3:target~.prevNext>*:nth-child(3) {
@@ -605,12 +614,18 @@ header .redes-sociais li a {
     text-decoration: none;
 }
 
-.container-cliente-1 .btn-cliente-1 {
-    background-color: transparent;
+.container-cliente-2 .btn-cliente-2 {
+    padding: 20px 40px;
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    width: fit-content;
+    background-color: #FF462D;
 }
- */
 
-footer {
+*/ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
