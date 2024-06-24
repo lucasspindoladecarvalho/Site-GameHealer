@@ -77,6 +77,15 @@ header .redes-sociais li a {
     background-color: #860A0B;
 }
 
+main h1{
+        background-color: transparent;
+        color: black;
+        text-shadow: -1px 1px 1px #860A0B;
+        text-align: center;
+        font-size: 3rem;
+        padding: 10px 0 30px;
+    }
+
 main .container-main {
     display: flex;
     flex-wrap: wrap;
@@ -365,7 +374,7 @@ main .container-para-quem .btn-contato {
     background-color: white;
 }
 
-.container-blog .artigos-blog .tag-blog {
+/* .container-blog .artigos-blog .tag-blog {
     background-color: #48B02C;
     width: 150px;
     padding: 10px;
@@ -373,7 +382,7 @@ main .container-para-quem .btn-contato {
     position: relative;
     bottom: 280px;
     left: 50px;
-}
+} */
 
 .container-blog .artigos-blog h4 {
     margin: 0 10px 10px 10px;
@@ -467,7 +476,6 @@ main .container-para-quem .btn-contato {
     background-color: #860A0B;
     margin: 50px auto;
     border-radius: 10px;
-    height: 330px;
 }
 
 .container-contato div {
