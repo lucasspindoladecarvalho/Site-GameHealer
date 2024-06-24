@@ -89,7 +89,7 @@ main .container-topo {
     flex-wrap: wrap;
     background-color: black;
     border-radius: 10px;
-    margin: 15px;
+    margin: 20px;
 }
 
 main .container-topo div h2 {
@@ -127,7 +127,9 @@ main .container-topo img {
 .container-missao {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 .container-missao img {
@@ -155,9 +157,12 @@ main .container-topo img {
 main .container-visao {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 0;
     background-color: black;
     border-radius: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+
 }
 
 .container-visao img {
@@ -192,6 +197,7 @@ main .container-visao {
     padding: 50px;
     border-radius: 10px;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
 .container-valores h2{
@@ -210,7 +216,7 @@ main .container-visao {
 
 .container-valores .img-valor li{
     border-radius: 20px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .container-valores .img-valor li p{
@@ -227,7 +233,7 @@ main .container-visao {
     margin: 15px;
 }
 
-.container-valores .list-valor{
+/* .container-valores .list-valor{
     display: flex;
     padding: 10px;
     margin: 10px;
@@ -243,7 +249,7 @@ main .container-visao {
     border-radius: 20px;
     text-align: center;
     font-size: 1.5rem;
-}
+} */
 
 footer {
     display: flex;
@@ -290,4 +296,8 @@ footer .redes-sociais li a {
     padding: 0.3rem;
     border-radius: 50%;
     background-color: #860A0B;
+}
+
+.copyright{
+    text-align: center;
 }

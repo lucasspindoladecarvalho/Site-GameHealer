@@ -85,7 +85,7 @@ main h1{
 .container-cliente-1 {
     background-color: black;
     border-radius: 10px;
-    margin: auto;
+    margin: 20px;
     padding-bottom: 30px;
 }
 
@@ -358,7 +358,7 @@ main h1{
 
 .container-cliente-2 {
     background-color: black;
-    margin: 30px auto;
+    margin: 20px 20px;
     border-radius: 10px;
     padding-bottom: 30px;
 }
@@ -630,7 +630,7 @@ main h1{
     background-color: #FF462D;
 }
 
-*/ footer {
+footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -675,4 +675,8 @@ footer .redes-sociais li a {
     padding: 0.3rem;
     border-radius: 50%;
     background-color: #860A0B;
+}
+
+.copyright{
+    text-align: center;
 }

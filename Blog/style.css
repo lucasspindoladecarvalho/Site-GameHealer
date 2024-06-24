@@ -90,7 +90,7 @@ h1{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    height: 100%;
+    max-height: 100vh;
     margin: 10px 20px;
     padding: 0
         /* Or set a fixed height */
@@ -289,7 +289,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
 
 }
 
@@ -386,4 +386,8 @@ footer .redes-sociais li a {
     padding: 0.3rem;
     border-radius: 50%;
     background-color: #860A0B;
+}
+
+.copyright{
+    text-align: center;
 }

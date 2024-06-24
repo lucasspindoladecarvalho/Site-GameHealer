@@ -91,7 +91,7 @@ main .container-main {
     flex-wrap: wrap;
     background-color: black;
     border-radius: 10px;
-    margin: 15px;
+    margin: 20px;
 }
 
 main .container-main div {
@@ -137,7 +137,9 @@ main .container-main img {
 .container-quem-somos {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 .container-quem-somos img {
@@ -171,7 +173,10 @@ main .container-main img {
 
 main .container-discord {
     display: flex;
-    margin: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+
 }
 
 
@@ -213,7 +218,7 @@ main .container-discord img {
 main .container-para-quem {
     background-color: black;
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 20px;
     display: block;
     min-height: 750px;
 }
@@ -270,6 +275,7 @@ main .container-para-quem .btn-contato {
     background-color: black;
     border-radius: 10px;
     padding: 50px 20px;
+    margin: 20px;
 }
 
 .container-clientes h2 {
@@ -345,7 +351,6 @@ main .container-para-quem .btn-contato {
 
 .container-blog .artigos-blog img {
     border-radius: 10px 10px 0;
-
 }
 
 .container-blog h1 {
@@ -363,6 +368,7 @@ main .container-para-quem .btn-contato {
     padding: 50px;
     border-radius: 10px;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
 
@@ -426,7 +432,7 @@ main .container-para-quem .btn-contato {
 .container-servicos .grupo-servicos {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 20px;
     padding: 50px 0;
     background-color: #000000;
     justify-content: space-evenly;
@@ -474,7 +480,7 @@ main .container-para-quem .btn-contato {
 
 .container-contato {
     background-color: #860A0B;
-    margin: 50px auto;
+    margin: 50px 20px;
     border-radius: 10px;
 }
 
@@ -606,4 +612,8 @@ footer .redes-sociais li a {
     padding: 0.3rem;
     border-radius: 50%;
     background-color: #860A0B;
+}
+
+.copyright{
+    text-align: center;
 }
