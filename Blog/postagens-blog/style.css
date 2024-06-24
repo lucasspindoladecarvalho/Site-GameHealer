@@ -123,11 +123,16 @@ main article .post .post-text {
 main article .post h2 {
     font-size: 3rem;
     text-align: center;
+    padding: 50px 0 50px 0;
+    text-shadow: -1px 1px 1px #860A0B;
+
 }
 
 main article .post h4 {
-    font-size: 2rem;
     text-align: center;
+    font-size: 2rem;
+    padding: 20px 0 20px 0;
+    text-shadow: -1px 1px 1px #860A0B;
 }
 
 main article .post .post-text p {
